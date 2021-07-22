@@ -29,7 +29,7 @@ namespace ICEWeatherExercise.ApiControllers
             _logger.LogInformation(
                 $"{nameof(GetWeatherForecast)} API was called with following parameters: {nameof(date)}: {date}, {nameof(lat)}: {lat}, {nameof(lon)}: {lon}");
 
-            var cacheKey = new {Today = DateTime.Now.Date, Date = date, Lat = lat, Lon = lon};
+            var cacheKey = new {Today = DateTime.UtcNow.Date, Date = date, Lat = lat, Lon = lon};
 
             if (_weatherCache.TryGetValue(cacheKey, out WeatherForecast forecast))
             {

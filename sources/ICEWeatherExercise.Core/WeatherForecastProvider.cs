@@ -28,7 +28,7 @@ namespace ICEWeatherExercise.Core
             _logger.LogInformation(
                 $"Getting forecast for following parameters: {nameof(dateTime)}: {dateTime}, {nameof(lat)}: {lat}, {nameof(lon)}: {lon}");
 
-            (DateTime date, int hoursOffset) = resolveForecastFileParameters(dateTime);
+            (DateTime date, int hoursOffset) = ResolveForecastFileParameters(dateTime);
 
             var localFilePath = _localFileStorage.GetFilePath(date, hoursOffset);
             _logger.LogInformation($"Searching for cached file for: {nameof(date)}: {date}, {nameof(hoursOffset)}: {hoursOffset} in {localFilePath}");
@@ -48,15 +48,15 @@ namespace ICEWeatherExercise.Core
             return createWeatherForecast(temperature, lon, lat);
         }
 
-        private (DateTime date, int hoursOffset) resolveForecastFileParameters(DateTime dateTime)
+        public (DateTime date, int hoursOffset) ResolveForecastFileParameters(DateTime dateTime)
         {
-            var today = DateTime.Now.Date;
+            var today = DateTime.UtcNow.Date;
             if (dateTime.Date < today)
             {
                 return (dateTime.Date, dateTime.Hour);
             }
 
-            return (today, (dateTime - today).Hours);
+            return (today, (int)(dateTime - today).TotalHours);
         }
 
         private WeatherForecast createWeatherForecast(double temperature, double lon, double lat)
