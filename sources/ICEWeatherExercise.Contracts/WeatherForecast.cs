@@ -1,7 +1,10 @@
-﻿namespace ICEWeatherExercise.Contracts
+﻿using System;
+
+namespace ICEWeatherExercise.Contracts
 {
     public class WeatherForecast
     {
+        public DateTime DateTime { get; set; }
         public double lon { get; set; }
         public double lat { get; set; }
 

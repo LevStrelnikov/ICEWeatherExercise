@@ -45,7 +45,7 @@ namespace ICEWeatherExercise.Core
 
             var temperature = await _weatherForecastFileParser.GetTemperature(lon, lat, localFilePath);
 
-            return createWeatherForecast(temperature, lon, lat);
+            return createWeatherForecast(temperature, lon, lat, dateTime);
         }
 
         public (DateTime date, int hoursOffset) ResolveForecastFileParameters(DateTime dateTime)
@@ -59,10 +59,11 @@ namespace ICEWeatherExercise.Core
             return (today, (int)(dateTime - today).TotalHours);
         }
 
-        private WeatherForecast createWeatherForecast(double temperature, double lon, double lat)
+        private WeatherForecast createWeatherForecast(double temperature, double lon, double lat, DateTime dateTime)
         {
             return new WeatherForecast
             {
+                DateTime = dateTime,
                 lon = lon,
                 lat = lat,
                 Temperature = new Temperature
