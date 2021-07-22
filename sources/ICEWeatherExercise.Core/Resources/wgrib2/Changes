@@ -1,0 +1,6 @@
+March 5, 2021: 
+original wgrib2.exe was compiled using the shared lib defaults: 
+   no jpeg, no png, no netcdf3, ftn_api
+origina wgrib2.exe was renamed wgrib2.exe.nojpg
+New wgrib2.exe was compiled with jpeg, png, netcdf3, no ftp_api
+

@@ -1,0 +1,15 @@
+Wgrib2 v3.0.2 brings support for python by pywgrib2_s and pywgrib2_xy
+by using the wgrib2 shared library.
+
+However, the shared library has been created using the cygwin compilers,
+and it has only been tested with the python that comes with cygwin.
+I have no idea what will happen if the cygwin-generated shared library
+is used with a non-cygwin python.  
+
+For people who have cygwin installed, you need to build your own wgrib2
+shared library.  This avoids any problems with different versions
+of the *.dll between my and your system.
+
+For people who don't have cygwin installed, I am not giving you
+the easy option of trying a configuration that hasn't been tested. 
+

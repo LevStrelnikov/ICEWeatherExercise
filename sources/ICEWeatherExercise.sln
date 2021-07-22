@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICEWeatherExercise", "ICEWeatherExercise\ICEWeatherExercise.csproj", "{389D0D30-51D7-4E33-8DCE-5C06F60FBC35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICEWeatherExercise.Core", "ICEWeatherExercise.Core\ICEWeatherExercise.Core.csproj", "{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{389D0D30-51D7-4E33-8DCE-5C06F60FBC35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389D0D30-51D7-4E33-8DCE-5C06F60FBC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389D0D30-51D7-4E33-8DCE-5C06F60FBC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389D0D30-51D7-4E33-8DCE-5C06F60FBC35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E75E28D8-E5F3-4442-AA85-270D43E3B630}
+	EndGlobalSection
+EndGlobal
