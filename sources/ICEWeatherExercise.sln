@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICEWeatherExercise", "ICEWeatherExercise\ICEWeatherExercise.csproj", "{389D0D30-51D7-4E33-8DCE-5C06F60FBC35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICEWeatherExercise", "ICEWeatherExercise\ICEWeatherExercise.csproj", "{389D0D30-51D7-4E33-8DCE-5C06F60FBC35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICEWeatherExercise.Core", "ICEWeatherExercise.Core\ICEWeatherExercise.Core.csproj", "{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICEWeatherExercise.Core", "ICEWeatherExercise.Core\ICEWeatherExercise.Core.csproj", "{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICEWeatherExercise.Contracts", "ICEWeatherExercise.Contracts\ICEWeatherExercise.Contracts.csproj", "{A8759D07-5E44-45F8-BC9D-5F1747393E2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFFEE4DC-3E6A-44F8-AF80-DB4DBB388DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8759D07-5E44-45F8-BC9D-5F1747393E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8759D07-5E44-45F8-BC9D-5F1747393E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8759D07-5E44-45F8-BC9D-5F1747393E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8759D07-5E44-45F8-BC9D-5F1747393E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

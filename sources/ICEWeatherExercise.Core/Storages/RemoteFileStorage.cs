@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Amazon.Runtime;
 using Amazon.S3;
 using Amazon.S3.Model;
-using ICEWeatherExercise.Core.Contracts;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using ICEWeatherExercise.Contracts.Storages;
 
 namespace ICEWeatherExercise.Core.Storages
 {

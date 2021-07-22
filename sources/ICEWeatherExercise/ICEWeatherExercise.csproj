@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ICEWeatherExercise.Contracts\ICEWeatherExercise.Contracts.csproj" />
     <ProjectReference Include="..\ICEWeatherExercise.Core\ICEWeatherExercise.Core.csproj" />
   </ItemGroup>
 

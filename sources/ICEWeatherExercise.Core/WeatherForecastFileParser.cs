@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using ICEWeatherExercise.Core.Contracts;
+using ICEWeatherExercise.Contracts;
 using Microsoft.Extensions.Logging;
 
 namespace ICEWeatherExercise.Core

@@ -2,7 +2,7 @@
 using System.IO;
 using System.Reflection;
 using Amazon.Runtime.Internal;
-using ICEWeatherExercise.Core.Contracts;
+using ICEWeatherExercise.Contracts.Storages;
 using Microsoft.Extensions.Configuration;
 
 namespace ICEWeatherExercise.Core.Storages

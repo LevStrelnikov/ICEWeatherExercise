@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using ICEWeatherExercise.Core.Contracts;
+using ICEWeatherExercise.Contracts;
+using ICEWeatherExercise.Contracts.Storages;
 using ICEWeatherExercise.Core.Services;
 using Microsoft.Extensions.Logging;
 

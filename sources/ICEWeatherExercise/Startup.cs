@@ -1,9 +1,10 @@
+using ICEWeatherExercise.Contracts;
+using ICEWeatherExercise.Contracts.Storages;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ICEWeatherExercise.Core;
-using ICEWeatherExercise.Core.Contracts;
 using ICEWeatherExercise.Core.Storages;
 using ICEWeatherExercise.Middlewares;
 

@@ -16,6 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ICEWeatherExercise.Contracts\ICEWeatherExercise.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Resources\wgrib2\Changes">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

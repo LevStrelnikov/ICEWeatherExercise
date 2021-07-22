@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using ICEWeatherExercise.Core.Contracts;
+using ICEWeatherExercise.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
